@@ -1,15 +1,9 @@
-# Basic Sample Hardhat Project
+# NEXO LOTTERY
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+An On-Chain secure and transparent lottery system which allows users to purchase lottery tickets as NFTs and after a set time, picks up a random winner amongst the participants and distribute the reward i.e 50% of the collected amount (prize Pool).
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+Instructions :
+1) git clone
+2) npm install
+3) npx hardhat test
 ```
