@@ -6,4 +6,6 @@ Instructions :
 1) git clone
 2) npm install
 3) npx hardhat test
+
+Note : Try re-running tests if it shows error in reward distribution test case because of instability in Eth transfers.
 ```
