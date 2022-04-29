@@ -1,0 +1,167 @@
+{
+  "manifestVersion": "3.2",
+  "proxies": [],
+  "impls": {
+    "32e61410250ba6fe3261be9b1757ace3f7f106b8e9b79ad38a40363fcf0c1852": {
+      "address": "0xcC1E30BfcD92617F177613bc006024BFD6296aEF",
+      "txHash": "0xe08bbd09296e4c31710a66f18d3d803583ff860e9d63fa5334b1daf092af48bc",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:39"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:44"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin/contracts-upgradeable/utils/ContextUpgradeable.sol:36"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:22"
+          },
+          {
+            "contract": "OwnableUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol:87"
+          },
+          {
+            "contract": "ERC1967UpgradeUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/ERC1967/ERC1967UpgradeUpgradeable.sol:211"
+          },
+          {
+            "contract": "UUPSUpgradeable",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "@openzeppelin/contracts-upgradeable/proxy/utils/UUPSUpgradeable.sol:107"
+          },
+          {
+            "contract": "tickets",
+            "label": "ticketInfo",
+            "type": "t_mapping(t_uint256,t_struct(ticketDetails)3733_storage)",
+            "src": "contracts/tickets.sol:29"
+          },
+          {
+            "contract": "tickets",
+            "label": "participants",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "contracts/tickets.sol:30"
+          },
+          {
+            "contract": "tickets",
+            "label": "participant",
+            "type": "t_array(t_address)dyn_storage",
+            "src": "contracts/tickets.sol:31"
+          },
+          {
+            "contract": "tickets",
+            "label": "winnersList",
+            "type": "t_array(t_address)dyn_storage",
+            "src": "contracts/tickets.sol:32"
+          },
+          {
+            "contract": "tickets",
+            "label": "ticketAddress",
+            "type": "t_address",
+            "src": "contracts/tickets.sol:33"
+          },
+          {
+            "contract": "tickets",
+            "label": "saleTime",
+            "type": "t_uint256",
+            "src": "contracts/tickets.sol:34"
+          },
+          {
+            "contract": "tickets",
+            "label": "ticketId",
+            "type": "t_uint256",
+            "src": "contracts/tickets.sol:35"
+          },
+          {
+            "contract": "tickets",
+            "label": "ticketPrice",
+            "type": "t_uint256",
+            "src": "contracts/tickets.sol:36"
+          },
+          {
+            "contract": "tickets",
+            "label": "prizePool",
+            "type": "t_uint256",
+            "src": "contracts/tickets.sol:37"
+          },
+          {
+            "contract": "tickets",
+            "label": "contractFunds",
+            "type": "t_uint256",
+            "src": "contracts/tickets.sol:38"
+          },
+          {
+            "contract": "tickets",
+            "label": "winnerAnnounced",
+            "type": "t_bool",
+            "src": "contracts/tickets.sol:39"
+          },
+          {
+            "contract": "tickets",
+            "label": "ticketUpdated",
+            "type": "t_bool",
+            "src": "contracts/tickets.sol:40"
+          }
+        ],
+        "types": {
+          "t_mapping(t_uint256,t_struct(ticketDetails)3733_storage)": {
+            "label": "mapping(uint256 => struct tickets.ticketDetails)"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_struct(ticketDetails)3733_storage": {
+            "label": "struct tickets.ticketDetails",
+            "members": [
+              {
+                "label": "owner",
+                "type": "t_address"
+              },
+              {
+                "label": "validity",
+                "type": "t_uint256"
+              }
+            ]
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_address)dyn_storage": {
+            "label": "address[]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          }
+        }
+      }
+    }
+  }
+}
