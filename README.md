@@ -2,7 +2,7 @@
 
 An On-Chain secure and transparent lottery system which allows users to purchase lottery tickets as NFTs and after a set time, picks up a random winner amongst the participants and distribute the reward i.e 50% of the collected amount (prize Pool).
 
-Instructions :
+**Instructions :**
 1) git clone
 2) cd Nexo_ticket
 3) npm install
