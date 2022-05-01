@@ -8,7 +8,7 @@ An On-Chain secure and transparent lottery system which allows users to purchase
 3) npm install
 4) npx hardhat test
 
-Note : Try re-running tests if it shows error in reward distribution test case because of instability in Eth transfers.
+**Note : Try re-running tests if it shows error in reward distribution test case because of instability in Eth transfers.**
 
 
 **Blockchain Network :** Rinkeby Testnet ([https://rinkeby.etherscan.io/](https://rinkeby.etherscan.io/))
